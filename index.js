@@ -30,14 +30,4 @@ program
 program.parse(process.argv);
 const argv = program.opts();
 
-// invokeAction({ action: "list" });
-// invokeAction({ action: "get", id: "AeHIrLTr6JkxGE6SN-0Rw" });
-// invokeAction({
-//   action: "add",
-//   name: "Alex",
-//   email: "vizimov@gmail.com",
-//   phone: "067-619-68-50",
-// });
-// invokeAction({ action: "remove", id: "YX2DzXdhU3A8wSB6XlcNZ" });
-
 invokeAction(argv);
